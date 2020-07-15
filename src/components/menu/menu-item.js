@@ -14,7 +14,7 @@ const MenuItem = ({ name, desc, price }) => {
   return (
     <div className={itemWrapper}>
       <div className={textWrapper}>
-        <h4 className="text-2xl w-9/12">{name}</h4>
+        <h4 className="text-2xl flex-1">{name}</h4>
         <p className="md:mx-5">{desc}</p>
         <h4 className="text-2xl">${price}</h4>
       </div>
