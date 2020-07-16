@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from "gatsby"
 import cart from "../../images/cart.png"
 
-const itemWrapper = `rounded-sm bg-white shadow-inset sm:hover:shadow-none flex justify-between items-center pl-5 gap-5 w-full transition-transform ease-linear duration-75 transform sm:hover:scale-105 sm:hover:bg-orange sm:hover:text-white`
+const itemWrapper = `rounded-sm bg-white shadow-inset sm:hover:shadow-none flex justify-between items-center pl-5 gap-5 w-full transition-transform ease-linear duration-75 transform sm:hover:scale-105 sm:hover:bg-orange text-black sm:hover:text-white`
 
-const textWrapper = `text-black sm:hover:text-white w-full px-2 py-5 grid justify-between items-center md:flex`
+const textWrapper = `w-full px-2 py-5 grid justify-between items-center md:flex`
 
 const cartLink = `rounded-sm bg-orange self-stretch flex flex-col items-center justify-center p-5`
 
